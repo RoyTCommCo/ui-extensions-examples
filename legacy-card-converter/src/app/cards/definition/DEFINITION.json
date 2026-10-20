@@ -18,7 +18,74 @@
     ]
   },
   "display": {
-    "properties": []
+    "properties": [
+      {
+        "name": "created",
+        "label": "Created At",
+        "dataType": "DATE",
+        "options": []
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "dataType": "STATUS",
+        "options": [
+          {
+            "name": "HIGH",
+            "label": "High",
+            "type": "DANGER"
+          }
+        ]
+      },
+      {
+        "name": "project",
+        "label": "Project",
+        "dataType": "STRING",
+        "options": []
+      },
+      {
+        "name": "reported_by",
+        "label": "Reported By",
+        "dataType": "EMAIL",
+        "options": []
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "dataType": "STRING",
+        "options": []
+      },
+      {
+        "name": "reporter_type",
+        "label": "Reported Type",
+        "dataType": "STRING",
+        "options": []
+      },
+      {
+        "name": "status",
+        "label": "Status",
+        "dataType": "STATUS",
+        "options": [
+          {
+            "name": "In Progress",
+            "label": "In Progress",
+            "type": "WARNING"
+          }
+        ]
+      },
+      {
+        "name": "ticket_type",
+        "label": "Ticket Type",
+        "dataType": "STRING",
+        "options": []
+      },
+      {
+        "name": "updated",
+        "label": "Last Updated",
+        "dataType": "DATE",
+        "options": []
+      }
+    ]
   },
   "actions": {
     "baseUrls": [
