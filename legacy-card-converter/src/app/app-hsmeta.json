@@ -4,24 +4,26 @@
   "config": {
     "description": "A tool to convert legacy cards to UI Extensions while designing a new card.",
     "name": "Legacy Card Converter App",
-    "distribution" : "private",
+    "distribution": "private",
     "auth": {
-      "type" : "static",
+      "type": "static",
       "requiredScopes": [
         "oauth",
         "crm.objects.contacts.read",
         "crm.objects.contacts.write",
-        "crm.objects.companies.read",
-        "crm.objects.companies.write",
         "crm.objects.deals.read",
         "crm.objects.deals.write",
-        "tickets"
+        "crm.objects.tickets.read",
+        "crm.objects.tickets.write"
       ],
       "optionalScopes": [],
       "conditionallyRequiredScopes": []
     },
     "permittedUrls": {
-      "fetch": ["https://example.com", "https://raw.githubusercontent.com"],
+      "fetch": [
+        "https://visibility.bi.community.co/hubspot/card/webhook/data-fetch",
+        "https://visibility.bi.community.co"
+      ],
       "iframe": [],
       "img": []
     },
