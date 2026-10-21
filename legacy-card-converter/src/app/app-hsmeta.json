@@ -24,7 +24,9 @@
         "https://visibility.bi.community.co/hubspot/card/webhook/data-fetch",
         "https://visibility.bi.community.co"
       ],
-      "iframe": [],
+      "iframe": [
+        "https://visibility.bi.community.co"
+      ],
       "img": []
     },
     "support": {
