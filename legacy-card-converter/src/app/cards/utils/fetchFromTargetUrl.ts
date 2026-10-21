@@ -48,6 +48,9 @@ export const fetchFromTargetUrl = async ({
   const response = await hubspot.fetch(urlWithParams, {
     method: 'GET',
     timeout: 5000,
+    headers: {
+      'X-Card-Secret': 'hubspot_key',
+    },
   });
 
   if (!response.ok) {

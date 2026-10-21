@@ -156,6 +156,9 @@ const handleActionHook = async (
       body?: Record<string, unknown>;
     } = {
       method,
+      headers: {
+        'X-Card-Secret': 'hubspot_key',
+      },
     };
 
     if (method === 'POST' || method === 'PUT' || method === 'PATCH') {
