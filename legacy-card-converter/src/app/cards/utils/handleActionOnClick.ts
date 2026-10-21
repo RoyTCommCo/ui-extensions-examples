@@ -157,7 +157,7 @@ const handleActionHook = async (
     } = {
       method,
       headers: {
-        'X-Card-Secret': 'hubspot_key',
+        Authorization: 'Bearer hubspot_key',
       },
     };
 
